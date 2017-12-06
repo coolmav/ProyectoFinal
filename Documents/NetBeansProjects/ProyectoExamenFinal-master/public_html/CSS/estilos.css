@@ -1,0 +1,340 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 5, 2017, 9:09:22 PM
+    Author     : 00140302
+*/
+ul li {display: inline; margin: 0px; padding: 1px; list-style-style: 10px; float: center; font-size: 20px; border-radius: 10px;} 
+h1, h2, h3, p, form { margin: 0; padding: 1em; }
+.clear { clear: both; }
+img { border: 2px;}
+ 
+/*-- Layout ----------------------------------------------------------*/
+#contenedor {
+ 
+  width: 90%;
+  height:20%;
+  max-width: 1257px;
+  max-height:990px;
+  width: 5647px;
+  height:65px;
+  margin: 0 auto;
+}
+ 
+#cabecera, #menu, #lateral, #contenido, #contenido #principal, #pie {
+  border: 1px solid #222; 
+}
+ 
+#cabecera { clear: both; }
+#menu { clear: both; }
+#lateral #noticias { float: left; width: 33.2%; }
+#contenido { float: center ; width: 100%; height: 60%;}
+#contenido #principal { float: left ; width: 33.3%; }
+#secundario { float: right; width: 33.2%; }
+#pie { clear: both; }
+ 
+/*-- Cabecera --------------------------------------------------------*/
+#cabecera #logo img { float: left;}
+#cabecera #buscador { float: right }
+#cabecera #tema { font-size: 19px;
+                              padding: 4px;
+     text-align: center; 
+    font-family: Algerian;
+    color: black;
+                             font-weight: bold;}
+
+#lateral #noticias{
+     margin-top: 0.2em;
+    font-size: 21.7px;
+}
+
+#contenido #principal {
+             font-size:21.7px;
+         
+}
+
+#secundario {
+           text-align: none;
+           margin-top: -1.5em;
+           height:px;
+           width: 515.5x;
+           font-size: 21.7px;
+    
+}
+
+
+#cabecera #logo { float: left; }
+#cabecera #tema { float: center; }
+
+#cabecera #tema #menu{
+    text-align: center;
+    font-family:Algerian;
+}
+
+#formulario h1{
+          color:blue;
+}
+#menu{
+    text-align: center;
+     color:red;
+     
+}
+
+#menu a{
+	padding: 12px; 
+	margin: 24px; 
+	font-weight: bold;
+	text-decoration: none;
+	color: #666;
+}
+
+/* Styles pour les liens survolés ou sélectionnés au clavier*/
+#menu a:hover, #menu a:focus {
+	text-decoration: underline;
+	color: #444;
+}
+
+/* Styles pour la rubrique en cours */
+#cuerpo{
+  
+    text-align: center;
+    border: 2px solid;
+    font-size: 15px;
+    font-family: Algerian;
+}
+
+#cuerpo img{
+    margin: 2em;   
+}
+
+img{
+    border-radius: 1px;
+    margin: .1em;
+}
+#pie{ 
+    
+    text-align: right; 
+    font-family: Algerian;    
+    color: black;
+}
+
+#Horario{
+              text-align: center;
+}
+
+form{
+   
+    width: 800px;
+    height: 600px;
+    margin: 0em auto;
+    border: 1px solid buttonface;
+    border-radius: 7em;
+    padding: 3.5em;
+}
+
+#formulario h1{
+    text-align: center;
+    color: black;
+     
+        
+}
+label{ display: inline-block;
+    width: -40em;
+    margin: 8px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 40px;
+    
+}
+
+label #mensaje { height: 300px;
+                          }
+
+input,textarea{
+    display: inline-block;
+    margin: 2px;
+    font-weight: bold;
+    font-size: 30px;
+    width: 20em;
+    text-align: right;
+    font: 1em cursive;
+    border: 1px solid #476e9e;
+    
+}
+input:focus,textarea:focus{
+    border-color: black ;
+}
+textarea{
+    vertical-align: middle;
+}
+
+close{
+	font-family:Georgia;
+	font-weight:bold;
+	font-style:italic;
+    display: inline-block;
+    height: 178px;
+    padding: 0;
+    margin: 0;
+    vertical-align: top;
+    width: 278px;
+}
+
+.close:hover {
+    margin: 2em;
+  color: red;
+    display: block;
+    height: 130px;  
+    width: 100px;
+}
+
+#close-CSS {
+    color: red;
+    height: 178px;  
+    width: 278px;
+}
+
+.BZS {
+	-moz-box-shadow:inset -50px 15px 14px -7px #276873;
+	-webkit-box-shadow:inset -50px 15px 14px -7px #276873;
+	box-shadow:inset -50px 15px 14px -7px #276873;
+	background-color:#599bb3;
+	-moz-border-radius:18px;
+	-webkit-border-radius:18px;
+	border-radius:18px;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Georgia;
+	font-size:12px;
+	font-weight:bold;
+	font-style:italic;
+	padding:8px 6px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+	padding: -11em;
+}
+.BZS:hover {
+	background-color:#7892c2;
+}
+.BZS:active {
+	position:relative;
+	top:1px;
+}
+
+.myButton {
+	-moz-box-shadow:inset -50px 15px 14px -7px #276873;
+	-webkit-box-shadow:inset -50px 15px 14px -7px #276873;
+	box-shadow:inset -50px 15px 14px -7px #276873;
+	background-color:#599bb3;
+	-moz-border-radius:18px;
+	-webkit-border-radius:18px;
+	border-radius:18px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Impact;
+	font-size:12px;
+	font-weight:bold;
+	font-style:italic;
+	padding:8px 6px;
+	text-decoration:none;
+	text-shadow: 0px 1px 0px #3d768a;
+}
+.myButton:hover {
+	background-color:#408c99;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+.Bucass {
+	-moz-box-shadow:inset 0px 0px 15px 3px #171e33;
+	-webkit-box-shadow:inset 0px 0px 15px 3px #171e33;
+	box-shadow:inset 0px 0px 15px 3px #171e33;
+	background-color:#7892c2;
+	-moz-border-radius:18px;
+	-webkit-border-radius:18px;
+	border-radius:18px;
+	border:2px solid #8893b5;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Georgia;
+	font-size:26px;
+	font-weight:bold;
+	font-style:italic;
+	padding:6px 10px;
+	text-decoration:none;
+	text-shadow:-3px 4px 2px #bd2877;
+}
+.Bucass:hover {
+	background-color:#476e9e;
+}
+.Bucass:active {
+	position:relative;
+	top:1px;
+        text-align: left;
+}
+
+        
+
+.Bucas {
+	-moz-box-shadow: 0px 3px 4px 0px #4d1919;
+	-webkit-box-shadow: 0px 3px 4px 0px #4d1919;
+	box-shadow: 0px 3px 4px 0px #4d1919;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #4545c7), color-stop(1, #5cbf2a));
+	background:-moz-linear-gradient(top, #4545c7 5%, #5cbf2a 100%);
+	background:-webkit-linear-gradient(top, #4545c7 5%, #5cbf2a 100%);
+	background:-o-linear-gradient(top, #4545c7 5%, #5cbf2a 100%);
+	background:-ms-linear-gradient(top, #4545c7 5%, #5cbf2a 100%);
+	background:linear-gradient(to bottom, #4545c7 5%, #5cbf2a 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#4545c7', endColorstr='#5cbf2a',GradientType=0);
+	background-color:#4545c7;
+	-moz-border-radius:42px;
+	-webkit-border-radius:42px;
+	border-radius:42px;
+	border:1px solid #000000;
+	display:inline-block;
+	cursor:pointer;
+	color:#141414;
+	font-family:Verdana;
+	font-size:17px;
+	padding:7px 10px;
+	text-decoration:none;
+	text-shadow:2px 0px 1px #fc0000;
+}
+
+.Bucas:hover {
+                  font-size: 15px;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #5cbf2a), color-stop(1, #4545c7));
+	background:-moz-linear-gradient(top, #5cbf2a 5%, #4545c7 100%);
+	background:-webkit-linear-gradient(top, #5cbf2a 5%, #4545c7 100%);
+	background:-o-linear-gradient(top, #5cbf2a 5%, #4545c7 100%);
+	background:-ms-linear-gradient(top, #5cbf2a 5%, #4545c7 100%);
+	background:linear-gradient(to bottom, #5cbf2a 5%, #4545c7 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#5cbf2a', endColorstr='#4545c7',GradientType=0);
+	background-color:#5cbf2a;
+}
+.Bucas:active {
+	position:relative;
+	top:1px;
+}
+
+
+ 
+ #map{
+        
+        outline: 0px solid white;
+        margin: 1em auto;
+        width:  -120%;
+        text-align:  center;
+      
+      }
+  
